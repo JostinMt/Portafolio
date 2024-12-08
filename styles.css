@@ -1,0 +1,112 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0; /* Fondo color amarillo claro */
+    color: #000; /* Texto negro */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #ff0000; /* Fondo rojo */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffcc00; /* Amarillo brillante */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #d32f2f; /* Rojo más oscuro */
+    border-bottom: 2px solid #ffcc00; /* Línea amarilla */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #000; /* Texto negro */
+}
+
+table td {
+    background-color: #ffe082; /* Amarillo más suave */
+}
+
+/* Estilo del formulario */
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffcc00; /* Amarillo */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #ff0000; /* Botón rojo */
+    color: #fff; /* Texto blanco */
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d32f2f; /* Rojo oscuro */
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #ffcc00; /* Fondo amarillo */
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
